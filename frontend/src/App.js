@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Toaster } from './components/ui/toaster';
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -40,6 +41,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Toaster />
     </div>
   );
 }
